@@ -26,6 +26,7 @@ public class BookJpaAdapter implements BookPersistencePort {
 
     @Override
     public void deleteBookById(Long id) {
+
         bookRepository.deleteById(id);
     }
 

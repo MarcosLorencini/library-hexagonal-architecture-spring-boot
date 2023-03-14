@@ -22,5 +22,5 @@ public interface BookMapper {
 
     List<BookDto> bookListToBookDtoList(List<Book> bookList);
 
-    List<Book> bookDtoListToBookList(List<BookDto> bookDtoList);
+   // List<Book> bookDtoListToBookList(List<BookDto> bookDtoList);
 }
